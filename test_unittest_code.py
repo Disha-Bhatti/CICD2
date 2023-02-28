@@ -1,7 +1,7 @@
 import pytest 
 import page_segmentation as pg
 import cv2
-image = cv2.imread("test_image.png")
+image = cv2.imread("./test_sample/Amended-page5.png")
 
 def test_get_text_cells():
 	debug_img = image.copy()
